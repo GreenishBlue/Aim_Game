@@ -1,4 +1,4 @@
-import turtle #import turtle #import turtle for main game
+import turtle #import turtle for main game
 import tkinter #import tkinter for UI
 
 def menuScreen():
