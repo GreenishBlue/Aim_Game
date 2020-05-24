@@ -7,16 +7,37 @@ def menuScreen():
     window.geometry ("800x800")
     window.configure(bg="teal")
     
-    title = tkinter.Label(window, text="AIM GAME", font="Impact 60", bg="Teal", fg="brown")
+    title = tkinter.Label(window, 
+    text="AIM GAME", 
+    font="Impact 60", 
+    bg="Teal", 
+    fg="brown")
     title.pack()
 
-    playButton = tkinter.Button(window, text="PLAY!", width="100", font="20", bg="teal", fg="white", command=mainGame)
+    playButton = tkinter.Button(window, 
+    text="PLAY!", 
+    width="100", 
+    font="20", 
+    bg="teal", 
+    fg="white", 
+    command=mainGame)
     playButton.pack()
 
-    settingsButton = tkinter.Button(window, text="Settings", width="100", font="20", bg="teal", fg="white")
+    settingsButton = tkinter.Button(window, 
+    text="Settings", 
+    width="100", 
+    font="20", 
+    bg="teal", 
+    fg="white")
     settingsButton.pack()
 
-    exitButton = tkinter.Button(window, text="Exit Game", width="100", font="20", bg="teal", fg="white", command=window.destroy)
+    exitButton = tkinter.Button(window, 
+    text="Exit Game", 
+    width="100", 
+    font="20", 
+    bg="teal", 
+    fg="white", 
+    command=window.destroy)
     exitButton.pack()
 
 
